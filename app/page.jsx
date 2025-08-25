@@ -2,7 +2,7 @@ import { MotionSection } from "@/components/Section";
 import ProjectCard from "@/components/ProjectCard";
 import personal from "@/data/personal.json";
 import projects from "@/data/projects.json";
-import TechShowcase from "../components/TechShowcase";
+import TechShowcase from "../components/TechShowCase";
 
 
 export default function Home() {
