@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "videsol-scheduler",
+    "title": "Videsol Scheduler",
+    "summary": "Gestor de reservas y tareas para taller mec\u00e1nico. M\u00f3dulos Admin/Clientes/Mec\u00e1nicos.",
+    "stack": [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Spring Boot",
+      "MySQL"
+    ],
+    "repo": "https://github.com/branco0verflow/TesisBackendFull",
+    "live": "https://tallervidesol.com",
+    "video": "/videos/videsol.mp4",
+    "year": 2025
+  },
+  {
+    "slug": "barber-booking",
+    "title": "Barber Booking SaaS",
+    "summary": "Plataforma multi-barberos con turnos, caja y facturaci\u00f3n.",
+    "stack": [
+      "React",
+      "Node",
+      "MySQL"
+    ],
+    "repo": "https://github.com/branco0verflow/albo-barber-front",
+    "live": "https://albo-barber-front.vercel.app",
+    "video": "/videos/barberia.mp4",
+    "year": 2024
+  }
+]

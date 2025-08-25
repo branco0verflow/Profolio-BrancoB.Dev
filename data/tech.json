@@ -1,0 +1,11 @@
+[
+  { "name": "Tailwind CSS", "src": "/tech/tailwind.png", "href": "https://tailwindcss.com" },
+  { "name": "JavaScript",         "src": "/tech/javascript.png",     "href": "https://developer.mozilla.org/docs/Web/CSS" },
+  { "name": "Next.js",      "src": "/tech/next.png",   "href": "https://nextjs.org" },
+  { "name": "React",        "src": "/tech/react.png",    "href": "https://react.dev" },
+  { "name": "Spring Boot",  "src": "/tech/spring.png",   "href": "https://spring.io/projects/spring-boot" },
+  { "name": "MySQL",        "src": "/tech/mysql.png",    "href": "https://www.mysql.com" },
+  { "name": "Node.js",      "src": "/tech/node.png",     "href": "https://nodejs.org" },
+  { "name": "Vercel",       "src": "/tech/vercel.png",   "href": "https://vercel.com" },
+  { "name": "C#",       "src": "/tech/java.png",   "href": "https://vercel.com" }
+]

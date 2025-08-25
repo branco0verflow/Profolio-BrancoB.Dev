@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 9 9 11;       /* slate-950 */
+  --fg: 241 245 249;  /* slate-100 */
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(var(--bg));
+  color: rgb(var(--fg));
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Useful utility classes */
+.container-max {
+  @apply mx-auto max-w-5xl px-4;
+}
+.card {
+  @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur p-5 shadow-soft;
+}
+.badge {
+  @apply inline-flex items-center rounded-full border border-white/10 bg-white/10 px-2 py-0.5 text-xs;
+}
+.link-underline {
+  @apply underline underline-offset-4 decoration-brand-400 hover:decoration-brand-300;
+}
+/* carrusel infinito con pausa al hover (casi terminado TODO) */
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@keyframes scroll-reverse {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
